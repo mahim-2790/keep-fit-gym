@@ -42,8 +42,8 @@ const ClickedService = () => {
                 </Card.Body>
                 <Card.Footer>
                     <div className="d-flex justify-content-between">
-                        <small>{clock} {singleService.duration}H</small>
-                        <small>{avatar} {singleService.trainee}</small>
+                        <small>{clock} {singleService?.duration}H</small>
+                        <small>{avatar} {singleService?.trainee}</small>
                     </div>
                 </Card.Footer>
             </Card>
